@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: purple;
+    border: 2px solid yellow;
+}
+
+.img1 {
+    width: 80px;
+    padding-left: 23px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.img2 {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding-left: 10px;
+    color: yellow;
+    font-style: oblique;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.div-1 {
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    margin-left: 10px;
+}
+
+
+.div-2 {
+    align-items: center;
+    width: 64vw;
+    display: flex;
+
+}
+
+.div-3 {
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+
+}
+
+.div-3 div {
+    color: white;
+    width: 9vw;
+    gap: 35px;
+    text-align: center;
+
+}
+
+.div-3 div a {
+    color: white;
+    width: 9vw;
+    text-align: center;
+    font-size: larger;
+    background-color: purple;
+    transition: background-color 0.5s;
+}
+
+.div-3 div a:hover {
+    color: yellow;
+}
+
+.secao-1 {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    
+    background-repeat: no-repeat;
+    background-size: 1950px;
+    border: 2px solid yellow;
+}
+
+.secao-2{
+    display: flex;
+    
+}
+
+main {
+    background-color: plum;
+    border: 2px solid yellow;
+    height: 67vh;
+
+}
+
+.secao-2 div h4{
+    font-style: oblique;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    justify-content: space-around;
+    
+}
+
+.secao-2 div{
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+div h2{
+    padding-top: 30px;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.secao-3 {
+    padding-top: 20px;
+    height: 67vh;
+    background: rgb(226, 203, 161);
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain; 
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 8px 3px 3px purple;
+
+}
+
+.btn-outline-warning {
+    background: rgb(99, 27, 152);
+    background: linear-gradient(171deg, rgba(99, 27, 152, 0.3533788515406162) 7%, rgba(83, 16, 141, 0.742734593837535) 54%);
+    border-radius: 10px;
+}
+
+.div-5 {
+    background-color: purple;
+    height: 20vh;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.div-5 p {
+    color: yellow;
+    font-style: oblique;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.div-5 h5 {
+    color: white;
+    font-size: small;
+}
+
+footer {
+    border: 2px solid yellow;
+
+}
