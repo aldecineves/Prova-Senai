@@ -164,6 +164,13 @@ div h2{
     font-size: small;
 }
 
+.div-5 p a {
+    color: white;
+    
+}
+
+
+
 footer {
     border: 2px solid yellow;
 
